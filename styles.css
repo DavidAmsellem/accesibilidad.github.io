@@ -1,4 +1,16 @@
 
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+
 .menu{
     text-align: right;
     font-size: 20px;
@@ -33,8 +45,17 @@
 }
 
 
+#historia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+
 #historia h2{
-    width: 100%;
+    width: 300px;
     margin-top: 50px;
     color:black;
     text-align: center;
@@ -42,35 +63,22 @@
 }
 
 #historia h3{
-    width: 100%;
+    width: 300px;
     
     color:black;
     text-align: center;
     font-size: 15px;
 }
 #historia .contenedor{
-    width: 100%;
+    width: 300px;
     font-size: 15px;
     text-align: center;
 }
 
-#vivencias h2{
-    width: 100%;
-    margin-top: 50px;
-    color:black;
-    text-align: center;
-    font-size: 15px;
+.historias{
+    width: 300px;
 }
 
-#vivencias h3{
-    width: 100%;
-    
-    color:black;
-    text-align: center;
-    font-size: 15px;
-}
-#vivencias .contenedor{
-    width: 100%;
-    font-size: 15px;
-    text-align: center;
+.vivencias{
+ width: 50%;
 }
