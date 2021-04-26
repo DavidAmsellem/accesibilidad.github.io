@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header role="banner">
         <div class="menu">
                   
                 
-             <nav>
+             <nav role="navigation">
                 <a href="opciona">Historia</a>
                 <a href="opcionb">Fotos</a>
             
@@ -24,7 +24,9 @@
             
         </div>
     </header>
-        <section id="banner">
+
+    <main role="main">
+        <section role="region" id="banner">
             <img src="/images/michael-oxendine-NIC-IhNpsNs-unsplash 1.JPG" alt="Imagen_uned">
             <div class="contenedor">
                 <p>Mi propia pagina web</p>
@@ -34,11 +36,11 @@
             </div>
         </section>
 
-        <section id="blog">
+        <section role="region" id="blog">
             <h1>Historia</h1>
         </section>
 
-        <section id="historia">
+        <section role="region" id="historia">
             <div class="card">
             <article>
             
@@ -74,7 +76,7 @@
             </div>
         </div>
         </article>
-        <article>
+        <article role="article">
             <div class="viajes">
             <h2>Viajes</h2>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -91,11 +93,11 @@
             </div>
         </div>
         </article>
-    </div>
+         </div>
         </section>
 
 
-        <section id="fotos">
+        <section role="region" id="fotos">
             <div class="contenedor">
                 <h1>Fotos</h1>
                 <img src="images/pexels-adrianna-calvo-17729.jpg" alt="">
@@ -105,7 +107,17 @@
         </section>
 
 
+    <footer role="footer">
+        <section role="region" id="footer">
+        <h4>Vuelva pronto</h4>
+        <svg width="1920" height="200" viewBox="0 0 1920 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="2386" height="91" transform="matrix(1 0 0 -1 -255 91)" fill="#335565"/>
+            </svg>
+        </section>
+            
+    </footer>
 
+    </main>
    
     
 </body>
